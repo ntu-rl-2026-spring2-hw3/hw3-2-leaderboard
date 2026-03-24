@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "student_id": "r12345678",
+    "submission_time": "2026-03-24T04:31:41.163854+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 25,
+        "health": 80,
+        "ammo": 50
+      }
+    }
+  }
+]
