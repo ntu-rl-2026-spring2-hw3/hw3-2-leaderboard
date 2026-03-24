@@ -1,2 +1,16 @@
 [
+  {
+    "student_id": "TA",
+    "submission_time": "2026-03-24T16:16:29.094730+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "ammo": 73,
+        "health": 100,
+        "kills": 19
+      }
+    },
+    "audit": {
+      "run_url": "https://github.com/ntu-drl-2026-spring-hw3/dummy_student_repo/actions/runs/23499727823"
+    }
+  }
 ]
