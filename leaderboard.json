@@ -1,12 +1,12 @@
 [
   {
     "student_id": "dummy",
-    "submission_time": "2026-03-24T11:15:09.019496+00:00",
+    "submission_time": "2026-03-24T11:46:35.651114+00:00",
     "levels": {
       "SeekAndSlayLevel0-v0": {
-        "ammo": 72.4,
-        "health": 94.4,
-        "kills": 0.8
+        "ammo": 73,
+        "health": 100,
+        "kills": 19
       }
     },
     "audit": {
