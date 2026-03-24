@@ -1,21 +1,11 @@
-# NTU 2026 Spring 2 DRL HW3-2 LeaderBoard
+# NTU 2026 Spring DRL HW3-2 Leaderboard
 
-Static leaderboard hosted on **GitHub Pages**.
-Data lives in `leaderboard.json`; the page fetches it at load time.
+Static leaderboard for the NTU Deep Reinforcement Learning course (HW3-2), hosted on **GitHub Pages**.
+Scores are stored in `leaderboard.json` and displayed at the GitHub Pages URL of this repo.
 
-## Setup
+## How submissions are received
 
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**, set source to `main` branch, root `/`.
-3. Your leaderboard will be live at `https://<user>.github.io/<repo>/`.
-
-## How the evaluation platform submits scores
-
-The platform calls the GitHub **repository_dispatch** API, which triggers the
-`update_leaderboard` workflow → runs `scripts/update_score.py` → commits the
-updated `leaderboard.json` → GitHub Pages auto-deploys.
-
-### Endpoint
+The evaluation platform triggers score updates by calling the GitHub **repository_dispatch** API:
 
 ```
 POST https://api.github.com/repos/{OWNER}/{REPO}/dispatches
@@ -23,7 +13,7 @@ Authorization: Bearer {GITHUB_TOKEN}
 Content-Type: application/json
 ```
 
-### Payload
+Payload:
 
 ```json
 {
@@ -41,84 +31,22 @@ Content-Type: application/json
 }
 ```
 
-Only include levels the student actually reached.
-The `GITHUB_TOKEN` must have **`repo` scope** (create it in Settings → Developer settings → Personal access tokens).
+This triggers the `update_leaderboard` workflow → `scripts/update_score.py` → commits updated `leaderboard.json` → GitHub Pages auto-deploys.
 
-### Example curl
+The `GITHUB_TOKEN` must have **`repo` scope**.
 
-```bash
-curl -X POST \
-  -H "Authorization: Bearer $GITHUB_TOKEN" \
-  -H "Accept: application/vnd.github.v3+json" \
-  https://api.github.com/repos/OWNER/REPO/dispatches \
-  -d '{
-    "event_type": "submit_score",
-    "client_payload": {
-      "student_id": "r12345678",
-      "results": {
-        "SeekAndSlayLevel0-v0": {"kills": 25, "health": 80, "ammo": 50}
-      }
-    }
-  }'
+## Ranking & scoring
+
+Entries are ranked **first by number of levels reached** (more levels always beats fewer), then by final score as a tiebreaker:
+
+```
+Final Score = Σ (kills × 0.8 + health × 0.1 + ammo × 0.1)
 ```
 
-### Python helper
-
-```python
-import httpx, json, os
-
-def submit_score(student_id: str, results: dict):
-    """
-    results: {level_name: {"kills": int, "health": float, "ammo": int}}
-    """
-    token = os.environ["GITHUB_TOKEN"]
-    owner = "YOUR_OWNER"
-    repo  = "YOUR_REPO"
-
-    resp = httpx.post(
-        f"https://api.github.com/repos/{owner}/{repo}/dispatches",
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Accept": "application/vnd.github.v3+json",
-        },
-        json={
-            "event_type": "submit_score",
-            "client_payload": {
-                "student_id": student_id,
-                "results": results,
-            },
-        },
-    )
-    resp.raise_for_status()
-    print(f"Submitted {student_id}: {resp.status_code}")
-```
-
-## Levels & thresholds
-
-| Level | Map | Threshold |
+| Level | Map | Kill threshold to pass |
 |---|---|:---:|
 | SeekAndSlayLevel0-v0 | default | 22 |
 | SeekAndSlayLevel1_6-v0 | mixed_enemies | 15 |
 | SeekAndSlayLevel2_1-v0 | blue_shadows | 9 |
 | SeekAndSlayLevel3_1-v0 | blue_mixed_resized_enemies | 7 |
 | SeekAndSlayLevel4-v0 | complete | — |
-
-## Ranking & scoring formula
-
-Entries are ranked by **levels reached first** (more levels always beats fewer levels), then broken by:
-
-```
-Score = Σ (kills_i × 0.8 + health_i × 0.1 + ammo_i × 0.1)
-```
-
-## Manual update / delete
-
-```bash
-# Update / add a student
-python scripts/update_score.py \
-  --student-id r12345678 \
-  --results '{"SeekAndSlayLevel0-v0": {"kills": 25, "health": 80, "ammo": 50}}'
-
-# Delete a student
-python scripts/update_score.py --delete --student-id r12345678
-```
