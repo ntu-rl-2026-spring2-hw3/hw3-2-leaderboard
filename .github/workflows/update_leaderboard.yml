@@ -32,16 +32,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ── Verify secret (repository_dispatch only) ──────────────────
-      # workflow_dispatch is manual/TA use, skip verification
-      - name: Verify submit secret
-        if: github.event_name == 'repository_dispatch'
-        run: |
-          if [ "${{ github.event.client_payload.secret }}" != "${{ secrets.SUBMIT_SECRET }}" ]; then
-            echo "Unauthorized: invalid SUBMIT_SECRET"
-            exit 1
-          fi
-
       # ── Resolve inputs (repository_dispatch or workflow_dispatch) ──
       - name: Set variables
         id: vars
@@ -74,9 +64,15 @@ jobs:
       - name: Update score
         if: steps.vars.outputs.delete != 'true'
         run: |
+          AUDIT=$(jq -n \
+            --arg run_url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --arg triggered_by "${{ github.actor }}" \
+            --arg event_type "${{ github.event_name }}" \
+            '{run_url: $run_url, triggered_by: $triggered_by, event_type: $event_type}')
           python scripts/update_score.py \
             --student-id "${{ steps.vars.outputs.student_id }}" \
-            --results "$(cat /tmp/results.json)"
+            --results "$(cat /tmp/results.json)" \
+            --audit "$AUDIT"
 
       # ── Commit & push ─────────────────────────────────────────────
       - name: Commit updated leaderboard

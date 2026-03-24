@@ -86,6 +86,8 @@ def main():
                         help="JSON string: {level: {kills, health, ammo}, ...}")
     parser.add_argument("--delete", action="store_true",
                         help="Remove the student's entry")
+    parser.add_argument("--audit", default=None,
+                        help="JSON string: {run_url, triggered_by, event_type}")
     # Alternative per-level flags (used when --results not supplied)
     parser.add_argument("--level",  action="append", dest="levels",  default=[])
     parser.add_argument("--kills",  action="append", dest="kills",   default=[], type=int)
@@ -123,19 +125,31 @@ def main():
 
     validate_results(results)
 
+    audit = None
+    if args.audit:
+        try:
+            audit = json.loads(args.audit)
+        except json.JSONDecodeError as e:
+            print(f"WARNING: Could not parse --audit JSON, skipping: {e}", file=sys.stderr)
+
     now = datetime.now(timezone.utc).isoformat()
     existing = next((e for e in data if e["student_id"] == args.student_id), None)
 
     if existing:
         existing["levels"] = results
         existing["submission_time"] = now
+        if audit is not None:
+            existing["audit"] = audit
         print(f"Updated entry for {args.student_id}")
     else:
-        data.append({
+        entry = {
             "student_id": args.student_id,
             "submission_time": now,
             "levels": results,
-        })
+        }
+        if audit is not None:
+            entry["audit"] = audit
+        data.append(entry)
         print(f"Added new entry for {args.student_id}")
 
     score = compute_score(results)
