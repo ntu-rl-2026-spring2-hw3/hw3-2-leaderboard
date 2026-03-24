@@ -53,14 +53,18 @@ LEVEL_WEIGHTS = {
 
 
 def compute_score(levels: dict) -> float:
+    """Tiebreaker score: Σ w × (kills×0.8 + health×0.1 + ammo×0.1)
+    Primary ranking is by number of levels reached; this score breaks ties."""
     score = 0.0
     for name, weight in LEVEL_WEIGHTS.items():
         e = levels.get(name)
         if e is None:
             continue
-        score += e.get("kills", 0) * weight
-        score += e.get("health", 0) * 0.05
-        score += e.get("ammo", 0) * 0.01
+        score += weight * (
+            e.get("kills", 0) * 0.8
+            + e.get("health", 0) * 0.1
+            + e.get("ammo", 0) * 0.1
+        )
     return round(score, 2)
 
 
