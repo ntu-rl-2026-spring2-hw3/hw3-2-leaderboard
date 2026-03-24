@@ -1,12 +1,1646 @@
 [
   {
-    "student_id": "r12345678",
-    "submission_time": "2026-03-24T04:31:41.163854+00:00",
+    "student_id": "b13528231",
+    "submission_time": "2026-03-21T05:40:07.566604+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 17,
+        "health": 54.5,
+        "ammo": 80
+      }
+    }
+  },
+  {
+    "student_id": "r11170674",
+    "submission_time": "2026-03-21T04:42:34.213168+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 16,
+        "health": 46.8,
+        "ammo": 36
+      }
+    }
+  },
+  {
+    "student_id": "r13696750",
+    "submission_time": "2026-03-21T04:08:21.225702+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 17,
+        "health": 12.7,
+        "ammo": 19
+      }
+    }
+  },
+  {
+    "student_id": "r13207786",
+    "submission_time": "2026-03-21T03:45:04.959243+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 34,
+        "health": 70.9,
+        "ammo": 27
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 18,
+        "health": 56.5,
+        "ammo": 53
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 10,
+        "health": 10.9,
+        "ammo": 53
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 3,
+        "health": 94.9,
+        "ammo": 2
+      }
+    }
+  },
+  {
+    "student_id": "r12923927",
+    "submission_time": "2026-03-24T06:48:28.237955+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 30,
+        "health": 77.7,
+        "ammo": 48
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 2,
+        "health": 33.4,
+        "ammo": 49
+      }
+    }
+  },
+  {
+    "student_id": "b11161324",
+    "submission_time": "2026-03-24T06:24:49.514646+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 26,
+        "health": 95.6,
+        "ammo": 53
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 6,
+        "health": 81.0,
+        "ammo": 28
+      }
+    }
+  },
+  {
+    "student_id": "b13898975",
+    "submission_time": "2026-03-22T10:35:15.134302+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 21,
+        "health": 30.9,
+        "ammo": 62
+      }
+    }
+  },
+  {
+    "student_id": "b11804318",
+    "submission_time": "2026-03-20T03:28:58.722217+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 19,
+        "health": 43.4,
+        "ammo": 21
+      }
+    }
+  },
+  {
+    "student_id": "b13679364",
+    "submission_time": "2026-03-24T04:51:38.446443+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 31,
+        "health": 92.4,
+        "ammo": 79
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 3,
+        "health": 61.2,
+        "ammo": 3
+      }
+    }
+  },
+  {
+    "student_id": "r11254511",
+    "submission_time": "2026-03-20T10:04:25.303654+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 21,
+        "health": 45.7,
+        "ammo": 59
+      }
+    }
+  },
+  {
+    "student_id": "b12263032",
+    "submission_time": "2026-03-20T21:48:26.939454+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 48.2,
+        "ammo": 43
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 18,
+        "health": 77.3,
+        "ammo": 48
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 7,
+        "health": 45.0,
+        "ammo": 10
+      }
+    }
+  },
+  {
+    "student_id": "r13723398",
+    "submission_time": "2026-03-22T08:26:12.553244+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 38,
+        "health": 76.2,
+        "ammo": 6
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 18,
+        "health": 66.8,
+        "ammo": 5
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 8,
+        "health": 76.7,
+        "ammo": 31
+      }
+    }
+  },
+  {
+    "student_id": "r13185965",
+    "submission_time": "2026-03-20T23:55:23.814781+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 27,
+        "health": 17.0,
+        "ammo": 14
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 14,
+        "health": 58.6,
+        "ammo": 27
+      }
+    }
+  },
+  {
+    "student_id": "b12888295",
+    "submission_time": "2026-03-22T07:48:14.680844+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 62.6,
+        "ammo": 14
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 18,
+        "health": 78.9,
+        "ammo": 20
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 10,
+        "health": 7.4,
+        "ammo": 39
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 6,
+        "health": 59.7,
+        "ammo": 48
+      }
+    }
+  },
+  {
+    "student_id": "r12233636",
+    "submission_time": "2026-03-21T23:35:54.718735+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 70.6,
+        "ammo": 80
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 12,
+        "health": 28.1,
+        "ammo": 38
+      }
+    }
+  },
+  {
+    "student_id": "r11694916",
+    "submission_time": "2026-03-24T06:02:06.679286+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 21,
+        "health": 98.5,
+        "ammo": 5
+      }
+    }
+  },
+  {
+    "student_id": "b11321231",
+    "submission_time": "2026-03-21T17:39:52.026613+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 22,
+        "health": 45.7,
+        "ammo": 47
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 20,
+        "health": 6.2,
+        "ammo": 53
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 11,
+        "health": 83.1,
+        "ammo": 13
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 4,
+        "health": 89.7,
+        "ammo": 58
+      }
+    }
+  },
+  {
+    "student_id": "b12642717",
+    "submission_time": "2026-03-23T12:52:37.334081+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 26,
+        "health": 46.4,
+        "ammo": 66
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 17,
+        "health": 81.8,
+        "ammo": 68
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 8,
+        "health": 78.6,
+        "ammo": 59
+      }
+    }
+  },
+  {
+    "student_id": "r12320281",
+    "submission_time": "2026-03-22T04:16:08.180978+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 85.9,
+        "ammo": 11
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 10,
+        "health": 31.5,
+        "ammo": 57
+      }
+    }
+  },
+  {
+    "student_id": "b13324082",
+    "submission_time": "2026-03-21T05:15:49.005730+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 15,
+        "health": 41.0,
+        "ammo": 3
+      }
+    }
+  },
+  {
+    "student_id": "r12797229",
+    "submission_time": "2026-03-22T11:19:00.409562+00:00",
     "levels": {
       "SeekAndSlayLevel0-v0": {
         "kills": 25,
-        "health": 80,
+        "health": 35.9,
+        "ammo": 62
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 16,
+        "health": 37.3,
+        "ammo": 76
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 15,
+        "health": 71.6,
+        "ammo": 35
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 3,
+        "health": 23.2,
+        "ammo": 30
+      }
+    }
+  },
+  {
+    "student_id": "r13346629",
+    "submission_time": "2026-03-23T14:24:32.254893+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 21,
+        "health": 51.4,
+        "ammo": 30
+      }
+    }
+  },
+  {
+    "student_id": "r11171849",
+    "submission_time": "2026-03-23T10:52:23.234641+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 19,
+        "health": 80.3,
+        "ammo": 11
+      }
+    }
+  },
+  {
+    "student_id": "r13785197",
+    "submission_time": "2026-03-21T11:18:29.771130+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 18,
+        "health": 43.4,
+        "ammo": 31
+      }
+    }
+  },
+  {
+    "student_id": "b13110139",
+    "submission_time": "2026-03-21T12:44:41.005016+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 18,
+        "health": 55.4,
+        "ammo": 54
+      }
+    }
+  },
+  {
+    "student_id": "b11196781",
+    "submission_time": "2026-03-24T23:35:44.792430+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 20,
+        "health": 57.3,
+        "ammo": 45
+      }
+    }
+  },
+  {
+    "student_id": "r11632496",
+    "submission_time": "2026-03-23T12:20:33.335024+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 16.5,
+        "ammo": 24
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 17,
+        "health": 35.0,
+        "ammo": 68
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 14,
+        "health": 23.2,
+        "ammo": 61
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 5,
+        "health": 31.3,
+        "ammo": 75
+      }
+    }
+  },
+  {
+    "student_id": "b11509386",
+    "submission_time": "2026-03-24T21:11:34.233885+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 19,
+        "health": 14.5,
+        "ammo": 24
+      }
+    }
+  },
+  {
+    "student_id": "b12771088",
+    "submission_time": "2026-03-21T11:32:58.472131+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 39.3,
+        "ammo": 38
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 20,
+        "health": 31.1,
+        "ammo": 6
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 9,
+        "health": 57.6,
+        "ammo": 16
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 3,
+        "health": 14.7,
+        "ammo": 1
+      }
+    }
+  },
+  {
+    "student_id": "b13518801",
+    "submission_time": "2026-03-22T20:53:15.742879+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 16,
+        "health": 49.6,
+        "ammo": 56
+      }
+    }
+  },
+  {
+    "student_id": "r12266931",
+    "submission_time": "2026-03-21T16:53:04.962866+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 28,
+        "health": 86.9,
+        "ammo": 14
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 13,
+        "health": 83.1,
+        "ammo": 51
+      }
+    }
+  },
+  {
+    "student_id": "r11791798",
+    "submission_time": "2026-03-22T11:00:34.514046+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 15,
+        "health": 19.4,
+        "ammo": 72
+      }
+    }
+  },
+  {
+    "student_id": "b11697347",
+    "submission_time": "2026-03-24T17:53:42.277499+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 19,
+        "health": 13.1,
+        "ammo": 31
+      }
+    }
+  },
+  {
+    "student_id": "r11712554",
+    "submission_time": "2026-03-20T14:12:51.074875+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 24,
+        "health": 80.1,
+        "ammo": 28
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 7,
+        "health": 78.7,
+        "ammo": 48
+      }
+    }
+  },
+  {
+    "student_id": "r13680097",
+    "submission_time": "2026-03-22T06:03:42.248832+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 12,
+        "health": 99.1,
+        "ammo": 39
+      }
+    }
+  },
+  {
+    "student_id": "b11377746",
+    "submission_time": "2026-03-22T20:14:07.931310+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 28,
+        "health": 10.7,
+        "ammo": 12
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 17,
+        "health": 25.0,
+        "ammo": 10
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 8,
+        "health": 19.9,
+        "ammo": 22
+      }
+    }
+  },
+  {
+    "student_id": "r13459536",
+    "submission_time": "2026-03-22T18:14:20.650090+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 27,
+        "health": 70.5,
+        "ammo": 60
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 18,
+        "health": 32.7,
+        "ammo": 29
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 8,
+        "health": 86.7,
+        "ammo": 9
+      }
+    }
+  },
+  {
+    "student_id": "b12351083",
+    "submission_time": "2026-03-23T10:29:10.285471+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 28,
+        "health": 92.8,
+        "ammo": 80
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 6,
+        "health": 23.8,
+        "ammo": 14
+      }
+    }
+  },
+  {
+    "student_id": "b11684482",
+    "submission_time": "2026-03-22T17:20:50.947603+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 18,
+        "health": 66.5,
+        "ammo": 34
+      }
+    }
+  },
+  {
+    "student_id": "r11522179",
+    "submission_time": "2026-03-24T03:11:44.660969+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 27,
+        "health": 34.2,
+        "ammo": 72
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 15,
+        "health": 92.5,
+        "ammo": 56
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 13,
+        "health": 71.5,
+        "ammo": 34
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 10,
+        "health": 52.5,
+        "ammo": 63
+      },
+      "SeekAndSlayLevel4-v0": {
+        "kills": 1,
+        "health": 89.5,
+        "ammo": 41
+      }
+    }
+  },
+  {
+    "student_id": "r11662336",
+    "submission_time": "2026-03-23T00:26:44.292889+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 27,
+        "health": 7.5,
+        "ammo": 29
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 23,
+        "health": 59.6,
+        "ammo": 2
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 7,
+        "health": 100.0,
+        "ammo": 34
+      }
+    }
+  },
+  {
+    "student_id": "r11578634",
+    "submission_time": "2026-03-22T21:08:58.697348+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 24,
+        "health": 54.3,
+        "ammo": 56
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 10,
+        "health": 92.0,
+        "ammo": 23
+      }
+    }
+  },
+  {
+    "student_id": "b12735656",
+    "submission_time": "2026-03-24T23:38:00.445171+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 13,
+        "health": 97.1,
+        "ammo": 60
+      }
+    }
+  },
+  {
+    "student_id": "r12552248",
+    "submission_time": "2026-03-21T17:45:19.176319+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 28,
+        "health": 36.7,
+        "ammo": 13
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 16,
+        "health": 70.9,
+        "ammo": 36
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 6,
+        "health": 67.9,
+        "ammo": 51
+      }
+    }
+  },
+  {
+    "student_id": "r11663750",
+    "submission_time": "2026-03-24T01:37:40.527007+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 17,
+        "health": 34.9,
+        "ammo": 41
+      }
+    }
+  },
+  {
+    "student_id": "r13765046",
+    "submission_time": "2026-03-20T13:54:38.131818+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 21,
+        "health": 78.4,
+        "ammo": 65
+      }
+    }
+  },
+  {
+    "student_id": "r11790993",
+    "submission_time": "2026-03-24T02:59:28.551812+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 36,
+        "health": 48.9,
+        "ammo": 6
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 14,
+        "health": 22.8,
+        "ammo": 46
+      }
+    }
+  },
+  {
+    "student_id": "b13712024",
+    "submission_time": "2026-03-23T02:42:57.832964+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 17,
+        "health": 9.9,
+        "ammo": 34
+      }
+    }
+  },
+  {
+    "student_id": "r12400850",
+    "submission_time": "2026-03-22T17:54:22.884085+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 24,
+        "health": 93.1,
+        "ammo": 56
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 18,
+        "health": 7.7,
+        "ammo": 80
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 5,
+        "health": 62.8,
+        "ammo": 30
+      }
+    }
+  },
+  {
+    "student_id": "b13946305",
+    "submission_time": "2026-03-23T13:10:26.180443+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 43.8,
+        "ammo": 28
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 14,
+        "health": 99.3,
+        "ammo": 14
+      }
+    }
+  },
+  {
+    "student_id": "b12324130",
+    "submission_time": "2026-03-22T07:22:25.490285+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 32,
+        "health": 52.3,
+        "ammo": 37
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 20,
+        "health": 53.3,
+        "ammo": 34
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 5,
+        "health": 49.9,
+        "ammo": 58
+      }
+    }
+  },
+  {
+    "student_id": "r13543143",
+    "submission_time": "2026-03-22T18:09:06.513212+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 27,
+        "health": 41.4,
+        "ammo": 76
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 3,
+        "health": 87.1,
+        "ammo": 35
+      }
+    }
+  },
+  {
+    "student_id": "r12201414",
+    "submission_time": "2026-03-23T20:43:15.657316+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 86.2,
+        "ammo": 43
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 19,
+        "health": 83.0,
+        "ammo": 36
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 7,
+        "health": 74.0,
+        "ammo": 75
+      }
+    }
+  },
+  {
+    "student_id": "b11359947",
+    "submission_time": "2026-03-22T21:35:26.901838+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 17,
+        "health": 47.4,
+        "ammo": 61
+      }
+    }
+  },
+  {
+    "student_id": "r13378082",
+    "submission_time": "2026-03-21T17:24:53.542811+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 13,
+        "health": 57.4,
+        "ammo": 69
+      }
+    }
+  },
+  {
+    "student_id": "b11272634",
+    "submission_time": "2026-03-21T21:15:54.743420+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 35,
+        "health": 98.2,
+        "ammo": 30
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 9,
+        "health": 59.3,
+        "ammo": 29
+      }
+    }
+  },
+  {
+    "student_id": "b12431535",
+    "submission_time": "2026-03-24T06:43:17.605627+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 19,
+        "health": 49.9,
+        "ammo": 48
+      }
+    }
+  },
+  {
+    "student_id": "r12398830",
+    "submission_time": "2026-03-21T22:19:46.021076+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 26,
+        "health": 68.1,
+        "ammo": 19
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 12,
+        "health": 52.7,
+        "ammo": 75
+      }
+    }
+  },
+  {
+    "student_id": "r11124813",
+    "submission_time": "2026-03-21T15:50:21.712098+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 24,
+        "health": 14.5,
+        "ammo": 56
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 22,
+        "health": 6.5,
+        "ammo": 18
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 14,
+        "health": 43.9,
+        "ammo": 19
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 11,
+        "health": 30.2,
+        "ammo": 79
+      },
+      "SeekAndSlayLevel4-v0": {
+        "kills": 7,
+        "health": 70.8,
+        "ammo": 10
+      }
+    }
+  },
+  {
+    "student_id": "b13208618",
+    "submission_time": "2026-03-24T06:12:42.606295+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 31,
+        "health": 41.1,
+        "ammo": 40
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 6,
+        "health": 64.5,
+        "ammo": 62
+      }
+    }
+  },
+  {
+    "student_id": "r13425498",
+    "submission_time": "2026-03-24T08:41:09.463516+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 26,
+        "health": 65.0,
+        "ammo": 36
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 14,
+        "health": 99.8,
+        "ammo": 11
+      }
+    }
+  },
+  {
+    "student_id": "r11564656",
+    "submission_time": "2026-03-22T04:04:35.675871+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 30,
+        "health": 87.9,
+        "ammo": 56
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 18,
+        "health": 20.8,
+        "ammo": 38
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 10,
+        "health": 80.6,
+        "ammo": 37
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 6,
+        "health": 39.1,
+        "ammo": 55
+      }
+    }
+  },
+  {
+    "student_id": "r13308496",
+    "submission_time": "2026-03-20T17:28:06.151742+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 16,
+        "health": 80.3,
+        "ammo": 21
+      }
+    }
+  },
+  {
+    "student_id": "b11802729",
+    "submission_time": "2026-03-20T21:00:29.961387+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 22,
+        "health": 62.9,
+        "ammo": 48
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 11,
+        "health": 91.7,
+        "ammo": 18
+      }
+    }
+  },
+  {
+    "student_id": "b13301629",
+    "submission_time": "2026-03-21T03:51:45.407936+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 20,
+        "health": 65.6,
+        "ammo": 58
+      }
+    }
+  },
+  {
+    "student_id": "b11897549",
+    "submission_time": "2026-03-21T06:38:21.137925+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 34,
+        "health": 90.6,
+        "ammo": 69
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 14,
+        "health": 20.0,
+        "ammo": 56
+      }
+    }
+  },
+  {
+    "student_id": "r13428838",
+    "submission_time": "2026-03-24T17:25:41.794292+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 29,
+        "health": 96.4,
+        "ammo": 32
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 13,
+        "health": 48.4,
+        "ammo": 38
+      }
+    }
+  },
+  {
+    "student_id": "b12314181",
+    "submission_time": "2026-03-20T23:54:21.743615+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 18,
+        "health": 27.5,
+        "ammo": 73
+      }
+    }
+  },
+  {
+    "student_id": "b11865179",
+    "submission_time": "2026-03-21T19:04:30.356073+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 28,
+        "health": 33.1,
+        "ammo": 37
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 23,
+        "health": 42.6,
+        "ammo": 1
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 10,
+        "health": 58.8,
+        "ammo": 6
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 11,
+        "health": 84.1,
+        "ammo": 36
+      },
+      "SeekAndSlayLevel4-v0": {
+        "kills": 2,
+        "health": 78.7,
+        "ammo": 29
+      }
+    }
+  },
+  {
+    "student_id": "r13680828",
+    "submission_time": "2026-03-23T00:50:52.079207+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 18,
+        "health": 64.0,
+        "ammo": 17
+      }
+    }
+  },
+  {
+    "student_id": "r11198246",
+    "submission_time": "2026-03-23T03:23:23.180793+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 30,
+        "health": 90.8,
+        "ammo": 5
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 12,
+        "health": 60.1,
+        "ammo": 16
+      }
+    }
+  },
+  {
+    "student_id": "b13712982",
+    "submission_time": "2026-03-20T10:48:57.618322+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 30,
+        "health": 33.0,
+        "ammo": 53
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 15,
+        "health": 56.2,
+        "ammo": 46
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 10,
+        "health": 55.4,
+        "ammo": 34
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 8,
+        "health": 83.3,
+        "ammo": 61
+      },
+      "SeekAndSlayLevel4-v0": {
+        "kills": 2,
+        "health": 96.9,
+        "ammo": 37
+      }
+    }
+  },
+  {
+    "student_id": "b12399105",
+    "submission_time": "2026-03-23T17:35:13.639510+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 22,
+        "health": 96.5,
+        "ammo": 18
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 16,
+        "health": 76.6,
+        "ammo": 28
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 13,
+        "health": 98.1,
+        "ammo": 71
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 3,
+        "health": 39.7,
         "ammo": 50
+      }
+    }
+  },
+  {
+    "student_id": "r12183667",
+    "submission_time": "2026-03-20T01:40:12.859004+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 17,
+        "health": 68.9,
+        "ammo": 33
+      }
+    }
+  },
+  {
+    "student_id": "b12420015",
+    "submission_time": "2026-03-22T22:08:49.959594+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 22,
+        "health": 83.1,
+        "ammo": 47
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 16,
+        "health": 7.4,
+        "ammo": 71
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 10,
+        "health": 36.2,
+        "ammo": 78
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 7,
+        "health": 83.3,
+        "ammo": 38
+      },
+      "SeekAndSlayLevel4-v0": {
+        "kills": 6,
+        "health": 66.7,
+        "ammo": 14
+      }
+    }
+  },
+  {
+    "student_id": "r13597732",
+    "submission_time": "2026-03-20T16:46:23.669403+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 28,
+        "health": 51.8,
+        "ammo": 12
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 12,
+        "health": 27.3,
+        "ammo": 68
+      }
+    }
+  },
+  {
+    "student_id": "r12801474",
+    "submission_time": "2026-03-20T16:16:46.869041+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 15,
+        "health": 75.6,
+        "ammo": 69
+      }
+    }
+  },
+  {
+    "student_id": "r13542417",
+    "submission_time": "2026-03-22T02:17:42.757475+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 26,
+        "health": 75.5,
+        "ammo": 19
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 19,
+        "health": 84.2,
+        "ammo": 78
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 5,
+        "health": 43.8,
+        "ammo": 35
+      }
+    }
+  },
+  {
+    "student_id": "r13830180",
+    "submission_time": "2026-03-20T03:55:33.435921+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 19,
+        "health": 95.3,
+        "ammo": 46
+      }
+    }
+  },
+  {
+    "student_id": "b13991014",
+    "submission_time": "2026-03-20T11:55:21.197830+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 28,
+        "health": 70.1,
+        "ammo": 69
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 19,
+        "health": 10.8,
+        "ammo": 35
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 5,
+        "health": 23.0,
+        "ammo": 15
+      }
+    }
+  },
+  {
+    "student_id": "b13456699",
+    "submission_time": "2026-03-24T17:52:52.660529+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 25,
+        "health": 25.2,
+        "ammo": 76
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 12,
+        "health": 97.3,
+        "ammo": 6
+      }
+    }
+  },
+  {
+    "student_id": "b13984642",
+    "submission_time": "2026-03-23T22:24:55.263076+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 24,
+        "health": 58.6,
+        "ammo": 8
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 16,
+        "health": 83.8,
+        "ammo": 70
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 9,
+        "health": 87.6,
+        "ammo": 42
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 9,
+        "health": 78.6,
+        "ammo": 76
+      },
+      "SeekAndSlayLevel4-v0": {
+        "kills": 10,
+        "health": 18.7,
+        "ammo": 16
+      }
+    }
+  },
+  {
+    "student_id": "b11922733",
+    "submission_time": "2026-03-22T16:49:33.077365+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 24,
+        "health": 80.9,
+        "ammo": 14
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 13,
+        "health": 6.4,
+        "ammo": 30
+      }
+    }
+  },
+  {
+    "student_id": "r12172132",
+    "submission_time": "2026-03-22T22:39:44.462326+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 22,
+        "health": 6.5,
+        "ammo": 33
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 21,
+        "health": 55.0,
+        "ammo": 8
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 11,
+        "health": 50.2,
+        "ammo": 46
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 5,
+        "health": 52.9,
+        "ammo": 78
+      }
+    }
+  },
+  {
+    "student_id": "r12140605",
+    "submission_time": "2026-03-20T05:12:13.695940+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 79.4,
+        "ammo": 66
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 11,
+        "health": 8.0,
+        "ammo": 61
+      }
+    }
+  },
+  {
+    "student_id": "r12146542",
+    "submission_time": "2026-03-24T05:40:32.970648+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 32,
+        "health": 45.5,
+        "ammo": 13
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 3,
+        "health": 12.0,
+        "ammo": 10
+      }
+    }
+  },
+  {
+    "student_id": "b11542374",
+    "submission_time": "2026-03-21T14:39:12.306130+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 24,
+        "health": 19.1,
+        "ammo": 16
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 12,
+        "health": 57.1,
+        "ammo": 41
+      }
+    }
+  },
+  {
+    "student_id": "b11213668",
+    "submission_time": "2026-03-21T21:42:30.700290+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 32,
+        "health": 61.8,
+        "ammo": 37
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 7,
+        "health": 14.4,
+        "ammo": 14
+      }
+    }
+  },
+  {
+    "student_id": "r12908577",
+    "submission_time": "2026-03-24T06:20:06.462512+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 26,
+        "health": 66.8,
+        "ammo": 70
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 13,
+        "health": 47.9,
+        "ammo": 29
+      }
+    }
+  },
+  {
+    "student_id": "b11665492",
+    "submission_time": "2026-03-22T01:39:27.462748+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 19,
+        "health": 83.6,
+        "ammo": 51
+      }
+    }
+  },
+  {
+    "student_id": "b13612262",
+    "submission_time": "2026-03-22T01:55:07.528913+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 29,
+        "health": 68.2,
+        "ammo": 47
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 16,
+        "health": 95.6,
+        "ammo": 60
+      },
+      "SeekAndSlayLevel2_1-v0": {
+        "kills": 15,
+        "health": 13.9,
+        "ammo": 12
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "kills": 9,
+        "health": 75.7,
+        "ammo": 47
+      },
+      "SeekAndSlayLevel4-v0": {
+        "kills": 6,
+        "health": 60.7,
+        "ammo": 71
+      }
+    }
+  },
+  {
+    "student_id": "r12221035",
+    "submission_time": "2026-03-22T19:24:07.220838+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 16,
+        "health": 68.7,
+        "ammo": 52
+      }
+    }
+  },
+  {
+    "student_id": "r13414910",
+    "submission_time": "2026-03-21T18:25:54.370402+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 18,
+        "health": 87.5,
+        "ammo": 6
+      }
+    }
+  },
+  {
+    "student_id": "r13439902",
+    "submission_time": "2026-03-24T20:12:28.206135+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 15,
+        "health": 62.0,
+        "ammo": 45
+      }
+    }
+  },
+  {
+    "student_id": "b11220944",
+    "submission_time": "2026-03-20T12:25:55.444479+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 20,
+        "health": 50.8,
+        "ammo": 13
+      }
+    }
+  },
+  {
+    "student_id": "r11260265",
+    "submission_time": "2026-03-21T18:00:49.245504+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 23,
+        "health": 57.8,
+        "ammo": 14
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "kills": 14,
+        "health": 81.7,
+        "ammo": 71
+      }
+    }
+  },
+  {
+    "student_id": "r13855731",
+    "submission_time": "2026-03-24T20:56:44.132118+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 16,
+        "health": 82.8,
+        "ammo": 78
+      }
+    }
+  },
+  {
+    "student_id": "r13440035",
+    "submission_time": "2026-03-23T08:59:49.939279+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 16,
+        "health": 67.5,
+        "ammo": 34
+      }
+    }
+  },
+  {
+    "student_id": "r13956795",
+    "submission_time": "2026-03-20T03:28:27.774218+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 21,
+        "health": 31.0,
+        "ammo": 39
+      }
+    }
+  },
+  {
+    "student_id": "b11787277",
+    "submission_time": "2026-03-24T14:35:04.209086+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "kills": 21,
+        "health": 18.6,
+        "ammo": 51
       }
     }
   }
