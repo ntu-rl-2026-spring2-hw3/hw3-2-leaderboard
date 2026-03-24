@@ -103,10 +103,12 @@ def submit_score(student_id: str, results: dict):
 | SeekAndSlayLevel3_1-v0 | blue_mixed_resized_enemies | 7 |
 | SeekAndSlayLevel4-v0 | complete | — |
 
-## Scoring formula
+## Ranking & scoring formula
+
+Entries are ranked by **levels reached first** (more levels always beats fewer levels), then broken by:
 
 ```
-Total = Σ(kills_i × w_i) + Σ(health_i × 0.05) + Σ(ammo_i × 0.01)
+Score = Σ w_i × (kills_i × 0.8 + health_i × 0.1 + ammo_i × 0.1)
 ```
 
 | Level | Weight |
