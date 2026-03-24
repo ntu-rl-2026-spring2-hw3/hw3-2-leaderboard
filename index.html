@@ -138,13 +138,6 @@
 
     thead th:hover { color: var(--text); }
 
-    thead th .sort-icon {
-      margin-left: .3rem;
-      opacity: .4;
-      font-size: .7rem;
-    }
-
-    thead th.sorted .sort-icon { opacity: 1; color: var(--accent); }
 
     tbody tr {
       border-bottom: 1px solid var(--border);
@@ -410,9 +403,7 @@ function buildHeader() {
   COL_DEFS.forEach(col => {
     const th = document.createElement("th");
     const isSorted = col.key === sortKey;
-    const icon = col.sortable
-      ? `<span class="sort-icon">${isSorted ? (sortAsc ? "↑" : "↓") : "↕"}</span>`
-      : "";
+    const icon = "";
 
     if (col.level) {
       const l = col.level;
