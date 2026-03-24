@@ -108,16 +108,8 @@ def submit_score(student_id: str, results: dict):
 Entries are ranked by **levels reached first** (more levels always beats fewer levels), then broken by:
 
 ```
-Score = Σ w_i × (kills_i × 0.8 + health_i × 0.1 + ammo_i × 0.1)
+Score = Σ (kills_i × 0.8 + health_i × 0.1 + ammo_i × 0.1)
 ```
-
-| Level | Weight |
-|---|:---:|
-| L0 | 1.0 |
-| L1 | 1.5 |
-| L2 | 2.0 |
-| L3 | 2.5 |
-| L4 | 3.0 |
 
 ## Manual update / delete
 
