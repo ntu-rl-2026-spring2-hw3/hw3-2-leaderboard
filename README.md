@@ -23,8 +23,8 @@ Payload:
     "results": {
       "SeekAndSlayLevel0-v0":  { "kills": 25, "health": 80.0, "ammo": 50 },
       "SeekAndSlayLevel1_6-v0":{ "kills": 18, "health": 60.0, "ammo": 30 },
-      "SeekAndSlayLevel2_1-v0":{ "kills": 12, "health": 45.0, "ammo": 20 },
-      "SeekAndSlayLevel3_1-v0":{ "kills":  8, "health": 30.0, "ammo": 10 },
+      "SeekAndSlayLevel3_1-v0":{ "kills": 12, "health": 45.0, "ammo": 20 },
+      "SeekAndSlayLevel2_3-v0":{ "kills":  8, "health": 30.0, "ammo": 10 },
       "SeekAndSlayLevel4-v0":  { "kills":  5, "health": 20.0, "ammo":  5 }
     },
     "audit": {
@@ -52,8 +52,8 @@ Final Score = Σ (kills × 0.8 + health × 0.1 + ammo × 0.1)
 
 | Level | Map | Kill threshold to pass |
 |---|---|:---:|
-| SeekAndSlayLevel0-v0 | default | 22 |
-| SeekAndSlayLevel1_6-v0 | mixed_enemies | 15 |
-| SeekAndSlayLevel2_1-v0 | blue_shadows | 9 |
-| SeekAndSlayLevel3_1-v0 | blue_mixed_resized_enemies | 7 |
+| SeekAndSlayLevel0-v0 | default | 20 |
+| SeekAndSlayLevel1_6-v0 | mixed_enemies | 12 |
+| SeekAndSlayLevel3_1-v0 | blue_mixed_resized | 10 |
+| SeekAndSlayLevel2_3-v0 | red_mixed_enemies | 7 |
 | SeekAndSlayLevel4-v0 | complete | — |

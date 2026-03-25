@@ -30,16 +30,16 @@ DATA_FILE = REPO_ROOT / "leaderboard.json"
 LEVELS = [
     "SeekAndSlayLevel0-v0",
     "SeekAndSlayLevel1_6-v0",
-    "SeekAndSlayLevel2_1-v0",
     "SeekAndSlayLevel3_1-v0",
+    "SeekAndSlayLevel2_3-v0",
     "SeekAndSlayLevel4-v0",
 ]
 
 LEVEL_THRESHOLDS = {
-    "SeekAndSlayLevel0-v0":  22,
-    "SeekAndSlayLevel1_6-v0": 15,
-    "SeekAndSlayLevel2_1-v0":  9,
-    "SeekAndSlayLevel3_1-v0":  7,
+    "SeekAndSlayLevel0-v0":   20,
+    "SeekAndSlayLevel1_6-v0": 12,
+    "SeekAndSlayLevel3_1-v0": 10,
+    "SeekAndSlayLevel2_3-v0":  7,
     "SeekAndSlayLevel4-v0":   None,
 }
 
