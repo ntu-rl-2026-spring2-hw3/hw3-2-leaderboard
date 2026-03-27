@@ -44,17 +44,19 @@ LEVEL_THRESHOLDS = {
 }
 
 def compute_score(levels: dict) -> float:
-    """Tiebreaker score: Σ (kills×0.8 + health×0.1 + ammo×0.1)
-    Primary ranking is by number of levels reached; this score breaks ties."""
+    """Tiebreaker score: Σ (kills×1.0 + health×0.01 + ammo×0.005)
+    Primary ranking is by number of levels reached; this score breaks ties.
+    Health (0-100) and ammo (0-200) are weighted so each contributes at most
+    1 point per level, keeping kills as the dominant factor."""
     score = 0.0
     for name in LEVELS:
         e = levels.get(name)
         if e is None:
             continue
         score += (
-            e.get("kills", 0) * 0.8
-            + e.get("health", 0) * 0.1
-            + e.get("ammo", 0) * 0.1
+            e.get("kills", 0) * 1.0
+            + e.get("health", 0) * 0.01
+            + e.get("ammo", 0) * 0.005
         )
     return round(score, 2)
 

@@ -47,8 +47,10 @@ The `GITHUB_TOKEN` must have **`repo` scope**.
 Entries are ranked **first by number of levels reached** (more levels always beats fewer), then by final score as a tiebreaker:
 
 ```
-Final Score = Σ (kills × 0.8 + health × 0.1 + ammo × 0.1)
+Final Score = Σ (kills × 1.0 + health × 0.01 + ammo × 0.005)
 ```
+
+Health (0–100) and ammo (0–200) each contribute at most 1 point per level, ensuring kills remains the dominant scoring factor.
 
 | Level | Map | Kill threshold to pass |
 |---|---|:---:|
