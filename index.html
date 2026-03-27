@@ -409,13 +409,8 @@ function computeScore(levels) {
   return Math.round(s * 100) / 100;
 }
 
-function levelsReached(levels) {
-  return LEVELS.filter(lvl => levels?.[lvl.name] != null).length;
-}
-
-// Composite rank key: primary = levels reached, secondary = formula score
 function rankVal(entry) {
-  return levelsReached(entry.levels) * 1e7 + (entry.total_score ?? 0);
+  return entry.total_score ?? 0;
 }
 
 /* ── State ─────────────────────────────────────────────────────── */
@@ -468,6 +463,7 @@ function buildHeader() {
         `<div class="tooltip-title">${esc(l.name)}</div>`,
         `<div class="tooltip-row"><span class="tooltip-label">Map</span><span class="tooltip-val">${esc(l.map)}</span></div>`,
         `<div class="tooltip-row"><span class="tooltip-label">Threshold</span><span class="tooltip-val">${thrVal}</span></div>`,
+        `<div class="tooltip-row"><span class="tooltip-label">Weight</span><span class="tooltip-val">×${l.weight}</span></div>`,
       ].join("");
       th.innerHTML = `
         <div class="th-inner">
@@ -521,7 +517,7 @@ function render() {
     return;
   }
 
-  // Rank by composite key: levels reached first, then formula score
+  // Rank by total score
   const byScore = [...DATA].sort((a, b) => rankVal(b) - rankVal(a));
   const rankMap = Object.fromEntries(byScore.map((e, i) => [e.student_id, i + 1]));
 

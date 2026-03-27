@@ -149,11 +149,9 @@ def main():
     if existing:
         old_score = compute_score(existing["levels"])
         new_score = compute_score(results)
-        old_levels = len([l for l in LEVELS if l in existing["levels"]])
-        new_levels = len([l for l in LEVELS if l in results])
-        if (new_levels, new_score) <= (old_levels, old_score):
-            print(f"Skipped: new result (levels={new_levels}, score={new_score}) "
-                  f"is not better than existing (levels={old_levels}, score={old_score})")
+        if new_score <= old_score:
+            print(f"Skipped: new score ({new_score}) "
+                  f"is not better than existing ({old_score})")
             return
         existing["levels"] = results
         existing["submission_time"] = now

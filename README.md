@@ -44,7 +44,7 @@ The `GITHUB_TOKEN` must have **`repo` scope**.
 
 ## Ranking & scoring
 
-Entries are ranked **first by number of levels reached** (more levels always beats fewer), then by final score as a tiebreaker:
+Entries are ranked by **total score** (higher is better):
 
 ```
 Final Score = Σ weight × (kills × 1.0 + health × 0.01 + ammo × 0.005)
