@@ -53,6 +53,16 @@ jobs:
             echo "run_url=${{ inputs.run_url }}" >> $GITHUB_OUTPUT
           fi
 
+      # ── Deadline check ──────────────────────────────────────────
+      - name: Check deadline
+        run: |
+          DEADLINE="2026-04-22T23:59:00+08:00"
+          NOW=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)
+          if [ "$(date -d "$NOW" +%s)" -gt "$(date -d "$DEADLINE" +%s)" ]; then
+            echo "::error::Submission deadline has passed ($DEADLINE). No longer accepting updates."
+            exit 1
+          fi
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
