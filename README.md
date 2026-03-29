@@ -60,8 +60,8 @@ Health (0–100) and ammo (0–200) each contribute at most 1 point per level be
 
 | Level | Map | Kill threshold to pass |
 |---|---|:---:|
-| SeekAndSlayLevel0-v0 | default | 15 |
-| SeekAndSlayLevel1_6-v0 | mixed_enemies | 5 |
-| SeekAndSlayLevel3_1-v0 | blue_mixed_resized | 5 |
-| SeekAndSlayLevel2_3-v0 | red_mixed_enemies | 5 |
+| SeekAndSlayLevel0-v0 | default | 18 |
+| SeekAndSlayLevel1_6-v0 | mixed_enemies | 9 |
+| SeekAndSlayLevel3_1-v0 | blue_mixed_resized | 9 |
+| SeekAndSlayLevel2_3-v0 | red_mixed_enemies | 9 |
 | SeekAndSlayLevel4-v0 | complete | — |

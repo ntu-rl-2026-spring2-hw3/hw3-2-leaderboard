@@ -1,50 +1,74 @@
 [
   {
-    "student_id": "baseline-0",
-    "submission_time": "2026-03-27T09:11:01.867125+00:00",
+    "student_id": "Baseline 1",
+    "submission_time": "",
     "levels": {
       "SeekAndSlayLevel0-v0": {
-        "ammo": 72,
-        "health": 100,
-        "kills": 16
+        "ammo": 0,
+        "health": 0,
+        "kills": 23
       },
-      "SeekAndSlayLevel1_6-v0": {
-        "ammo": 65,
-        "health": 17,
-        "kills": 11
-      },
-      "SeekAndSlayLevel2_3-v0": {
-        "ammo": 66,
-        "health": 1,
-        "kills": 8
-      },
-      "SeekAndSlayLevel3_1-v0": {
-        "ammo": 70,
-        "health": 43,
-        "kills": 11
-      },
-      "SeekAndSlayLevel4-v0": {
-        "ammo": 29,
-        "health": 1,
-        "kills": 9
+      "SeekAndSlayLevel1-v6": {
+        "ammo": 0,
+        "health": 0,
+        "kills": 7
       }
     },
     "audit": {
-      "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw2-3-baseline/actions/runs/23639113570"
+      "run_url": ""
     }
   },
   {
-    "student_id": "r00000001",
-    "submission_time": "2026-03-27T14:18:42.730926+00:00",
+    "student_id": "Baseline 2",
+    "submission_time": "",
     "levels": {
       "SeekAndSlayLevel0-v0": {
-        "ammo": 68.8,
-        "health": 93.6,
-        "kills": 2
+        "ammo": 0,
+        "health": 0,
+        "kills": 23
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "ammo": 0,
+        "health": 0,
+        "kills": 9
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "ammo": 0,
+        "health": 0,
+        "kills": 6
       }
     },
     "audit": {
-      "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw3-2-torrid-fish/actions/runs/23650548048"
+      "run_url": ""
+    }
+  },
+  {
+    "student_id": "Baseline 3",
+    "submission_time": "",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "ammo": 0,
+        "health": 0,
+        "kills": 20
+      },
+      "SeekAndSlayLevel1_6-v0": {
+        "ammo": 0,
+        "health": 0,
+        "kills": 12
+      },
+      "SeekAndSlayLevel3_1-v0": {
+        "ammo": 0,
+        "health": 0,
+        "kills": 10
+      },
+      "SeekAndSlayLevel2_3-v0": {
+        "ammo": 0,
+        "health": 0,
+        "kills": 7
+      }
+    },
+    "audit": {
+      "run_url": ""
     }
   }
 ]
