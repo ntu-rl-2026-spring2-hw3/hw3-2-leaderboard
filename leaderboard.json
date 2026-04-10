@@ -807,5 +807,19 @@
     "audit": {
       "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw3-2-ws6125-1/actions/runs/24229524217"
     }
+  },
+  {
+    "student_id": "b11902171",
+    "submission_time": "2026-04-10T08:35:36.657503+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "ammo": 89,
+        "health": 100,
+        "kills": 11
+      }
+    },
+    "audit": {
+      "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw3-2-KuoAnd/actions/runs/24234224219"
+    }
   }
 ]
