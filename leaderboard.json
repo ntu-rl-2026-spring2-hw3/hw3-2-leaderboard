@@ -632,7 +632,7 @@
   },
   {
     "student_id": "b12902026",
-    "submission_time": "2026-04-10T16:22:34.711230+00:00",
+    "submission_time": "2026-04-12T04:56:13.217634+00:00",
     "levels": {
       "SeekAndSlayLevel0-v0": {
         "ammo": 87,
@@ -655,13 +655,13 @@
         "kills": 14
       },
       "SeekAndSlayLevel4-v0": {
-        "ammo": 25,
-        "health": 49,
-        "kills": 6
+        "ammo": 46,
+        "health": 22,
+        "kills": 18
       }
     },
     "audit": {
-      "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw3-2-bananabbgun/actions/runs/24252808407"
+      "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw3-2-bananabbgun/actions/runs/24299032284"
     }
   },
   {
