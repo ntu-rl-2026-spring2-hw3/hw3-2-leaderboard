@@ -1578,5 +1578,19 @@
     "audit": {
       "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw3-2-Chi-Lei-Tsai/actions/runs/24391145547"
     }
+  },
+  {
+    "student_id": "b11705032",
+    "submission_time": "2026-04-15T02:03:24.542352+00:00",
+    "levels": {
+      "SeekAndSlayLevel0-v0": {
+        "ammo": 200,
+        "health": 12,
+        "kills": 0
+      }
+    },
+    "audit": {
+      "run_url": "https://github.com/ntu-drl-2026-spring-hw3/hw3-2-jensenyang2004/actions/runs/24432574730"
+    }
   }
 ]
